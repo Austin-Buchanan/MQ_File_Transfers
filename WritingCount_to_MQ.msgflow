@@ -6,7 +6,7 @@
     <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/File_Transfers/icons/full/obj16/WritingCount_to_MQ.gif"/>
     <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/File_Transfers/icons/full/obj30/WritingCount_to_MQ.gif"/>
     <composition>
-      <nodes xmi:type="ComIbmFileInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="84,102" inputDirectory="C:\Users\austi\IBM\ACET12\input" filenamePattern="*writing_export*.csv" processedFileAction="moveToArchiveWithTimestamp">
+      <nodes xmi:type="ComIbmFileInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="84,102" inputDirectory="C:\Users\austi\IBM\ACET12\input" filenamePattern="*writing_export*.csv" processedFileAction="moveToArchiveWithTimestamp" messageDomainProperty="DFDL" messageTypeProperty="{}:WritingCount_CSV_Model">
         <translation xmi:type="utility:ConstantString" string="File Input"/>
       </nodes>
       <nodes xmi:type="ComIbmMQOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="340,98" queueName="WRITING.INPUT">
