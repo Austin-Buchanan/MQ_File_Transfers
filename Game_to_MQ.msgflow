@@ -2,9 +2,9 @@
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ComIbmFileInput.msgnode="ComIbmFileInput.msgnode" xmlns:ComIbmMQOutput.msgnode="ComIbmMQOutput.msgnode" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eflow="http://www.ibm.com/wbi/2005/eflow" xmlns:utility="http://www.ibm.com/wbi/2005/eflow_utility" nsURI="Game_to_MQ.msgflow" nsPrefix="Game_to_MQ.msgflow">
   <eClassifiers xmi:type="eflow:FCMComposite" name="FCMComposite_1" nodeLayoutStyle="RECTANGLE">
     <eSuperTypes href="http://www.ibm.com/wbi/2005/eflow#//FCMBlock"/>
-    <translation xmi:type="utility:TranslatableString" key="Game_to_MQ" bundleName="Game_to_MQ" pluginId="File_Transfers"/>
-    <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/File_Transfers/icons/full/obj16/Game_to_MQ.gif"/>
-    <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/File_Transfers/icons/full/obj30/Game_to_MQ.gif"/>
+    <translation xmi:type="utility:TranslatableString" key="Game_to_MQ" bundleName="Game_to_MQ" pluginId="MQ_File_Transfers"/>
+    <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/MQ_File_Transfers/icons/full/obj16/Game_to_MQ.gif"/>
+    <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/MQ_File_Transfers/icons/full/obj30/Game_to_MQ.gif"/>
     <composition>
       <nodes xmi:type="ComIbmFileInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="79,80" inputDirectory="C:\Users\austi\IBM\ACET12\input" filenamePattern="*game_input*.json" processedFileAction="moveToArchiveWithTimestamp" messageDomainProperty="JSON">
         <translation xmi:type="utility:ConstantString" string="File Input"/>
